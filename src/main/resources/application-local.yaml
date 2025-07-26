@@ -1,0 +1,11 @@
+server:
+  port: 8091
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/napRoute
+    username: root
+    password: root
+
+jwt:
+  secret: 7ee5500b93c0c10bc7d3b2f3384bb137
